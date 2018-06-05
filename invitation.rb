@@ -10,6 +10,8 @@ puts "when should the guest rsvp?"
 rsvp = gets.chomp.capitalize
 puts "lastly what is the host name for this party?"
 host_name = gets.chomp
+puts "great! here is your new custom invite".capitalize
+
 puts "Dear #{guest_name},
 
 You are cordially invited to the #{party_name} on #{date} at #{time}. Please rsvp no later than #{rsvp}.
